@@ -1,0 +1,7 @@
+//sass混合文件
+
+@mixin itemcenter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,22 @@
+// 沐斓的 mixin混合文件
+
+@mixin flex-between-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin flex-column-between-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+@mixin wrap-base-style {
+  background-color: $background-color-dashboard;
+  border-radius: 5px;
+  color: #333;
+  font-size: 14px;
+  border: 1px solid $border-color-card-top;
+}
