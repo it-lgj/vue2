@@ -153,6 +153,7 @@ export default {
         limit: 10, // 条/页
         total: 50, //总条数
       },
+      test:2,
       configData: [], //配置下拉选项数据
     };
   },

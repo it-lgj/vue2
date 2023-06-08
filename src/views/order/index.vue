@@ -302,6 +302,10 @@
         </div>
       </div>
     </el-dialog>
+
+    <footer>
+      test
+    </footer>
   </div>
 </template>
 
@@ -337,8 +341,8 @@ export default {
         expressNumber: '',
         orderNo: '',
         toAddr: '',
-        toName: '',
         toTel: '',
+        yesterday:''
       },
       dialogTableVisible: false,
       gridData: [],

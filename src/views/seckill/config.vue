@@ -141,6 +141,7 @@ export default {
       },
       //添加秒杀配置按钮
       dialogFormVisible: false,
+      test:1
     };
   },
   created() {
